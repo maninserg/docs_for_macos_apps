@@ -1,5 +1,17 @@
 ## Install MacPorts
 
+### Install XCode and Commnad Line Tools
+
+Big Sur - lastest XCode v.13.2.1
+Catalina - lastest XCode v.12.4
+ElCapitan - lastest XCode v.8.2
+
+**Open and Close XCode before install MacPorts**
+
+### Donwload and install MacPorts
+
+[Download page](https://www.macports.org/install.php)
+
 ### Required: PATH variable
 
 ```shell
@@ -58,7 +70,7 @@ yes | sudo port install md5sha1sum  \
     | tee macports_install.log
 ```
 
-**for Big Sur**
+**for Big Sur and Catalina**
 
 ```shell
 yes | sudo port install md5sha1sum  \
@@ -164,7 +176,7 @@ sudo port -fp uninstall installed
 ### Remove Users and Groups
 
 ```shell
-sudo dscl . -delete /Users/macports
+sudo dscl . -delete /Users/macports;
 sudo dscl . -delete /Groups/macports
 ```
 
