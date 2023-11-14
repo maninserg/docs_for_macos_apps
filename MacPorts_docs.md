@@ -119,16 +119,16 @@ source /opt/local/share/nvm/init-nvm.sh
 **python311:**
 
 ```shell
-sudo port select --set ipython py311-ipython && \
-sudo port select --set ipython3 py311-ipython && \
-sudo port select --set pip pip311 && \
-sudo port select --set pip3 pip311 && \
-sudo port select --set pygments py311-pygments && \
-sudo port select --set python python311 && \
-sudo port select --set python3 python311 && \
-sudo port select --set docutils py311-docutils && \
-sudo port select --set jupyter py311-jupyter && \
-sudo port select --set virtualenv virtualenv311 && \
+sudo port select --set ipython py311-ipython;
+sudo port select --set ipython3 py311-ipython;
+sudo port select --set pip pip311;
+sudo port select --set pip3 pip311;
+sudo port select --set pygments py311-pygments;
+sudo port select --set python python311;
+sudo port select --set python3 python311;
+sudo port select --set docutils py311-docutils;
+sudo port select --set jupyter py311-jupyter;
+sudo port select --set virtualenv virtualenv311;
 ```
 
 **ruby:**
