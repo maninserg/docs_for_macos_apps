@@ -152,7 +152,7 @@ sudo port select --set php php83
 ## Uninstall port
 
 ```shell
-sudo port -f uninstall vile
+sudo port -f uninstall <port_name>
 ```
 
 ## Uninstall MacPorts
