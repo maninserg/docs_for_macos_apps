@@ -54,7 +54,6 @@ yes | sudo port install md5sha1sum  \
     mpg123 \
     mpv \
     ImageMagick \
-    youtube-dl \
     elinks \
     | tee macports_install.log
 ```
@@ -107,7 +106,6 @@ yes | sudo port install md5sha1sum  \
     mpg123 \
     mpv \
     ImageMagick \
-    youtube-dl \
     elinks \
     | tee macports_install.log
 ```
