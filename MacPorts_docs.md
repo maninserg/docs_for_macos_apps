@@ -116,10 +116,6 @@ nvm:
 source /opt/local/share/nvm/init-nvm.sh
 ```
 
-```shell
-port select ruby
-```
-
 **python311:**
 
 ```shell
@@ -136,6 +132,10 @@ sudo port select --set virtualenv virtualenv311 && \
 ```
 
 **ruby:**
+
+```shell
+port select ruby
+```
 
 ```shell
 sudo port select --set ruby ruby31
