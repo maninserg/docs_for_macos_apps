@@ -38,3 +38,8 @@ packloadall
 
 [Everforest](https://github.com/sainnhe/everforest/tree/master)
 [Everforest Help](https://github.com/sainnhe/everforest/blob/master/doc/everforest.txt)
+
+### Copy .vimrc to user home folder:
+```shell
+cp ./.vimrc ~/
+```
